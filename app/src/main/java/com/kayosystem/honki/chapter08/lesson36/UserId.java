@@ -5,6 +5,7 @@ public class UserId {
     public String time;
     public String subject;
 
+    //hoge
 
     public void setTime(String time) {
         this.time = time;
