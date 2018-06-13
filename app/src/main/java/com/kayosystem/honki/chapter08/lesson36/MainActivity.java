@@ -32,6 +32,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      *
      * @return 現在年月日(yyyy-MM-dd)
      */
+
+
+    //Hoge
+
+
     private String getDate() {
         CharSequence charSequence = android.text.format.DateFormat.format("yyyy-MM-dd-HH:mm", Calendar.getInstance());
         return charSequence.toString();
